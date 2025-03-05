@@ -8,6 +8,8 @@ class MainClass
         const string myName = "Roma";
 
         Console.WriteLine(myName);
+        Console.WriteLine("17 лет");
+        Console.WriteLine("My Name is Roma"); 
 
         Console.ReadKey();
     }
