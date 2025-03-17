@@ -4,7 +4,23 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("IntMin {0} ", int.MinValue);
-        Console.WriteLine("IntMax {0} ", int.MaxValue);
+        DaysOfWeek MyFavoriteDay;
+
+        MyFavoriteDay = DaysOfWeek.Friday;
+
+        Console.WriteLine(MyFavoriteDay);
     }
 }
+
+    enum DaysOfWeek : byte
+    {
+        Monday = 1,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
+    }
+
+
